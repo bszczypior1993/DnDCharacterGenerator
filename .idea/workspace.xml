@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="524892de-6101-436d-bedc-f9df57da9a19" name="Changes" comment="" />
+    <list default="true" id="524892de-6101-436d-bedc-f9df57da9a19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CharGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/CharGenerator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +22,85 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bszczypior1993"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:/bszczypior1993/DnDCharacterGenerator.git",
+    "accountId": "8ead50e2-bdc7-48e5-9164-6a35f188b2ac"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.03125" />
+      <entry key="MS500" value="1.500001517042774" />
+      <entry key="S2" value="1.896515963619784" />
+      <entry key="S5" value="2.4076616630611176" />
+      <entry key="S10" value="2.93953752244102" />
+      <entry key="S30" value="3.629716527192034" />
+      <entry key="S60" value="4.412992343218581" />
+      <entry key="M2" value="8.059061501563445" />
+      <entry key="M5" value="25.757694519745385" />
+      <entry key="M10" value="51.6430586149035" />
+      <entry key="M15" value="73.9221358536322" />
+      <entry key="M30" value="125.30180745541985" />
+      <entry key="H1" value="179.28079261437645" />
+      <entry key="H2" value="220.396613076853" />
+      <entry key="H4" value="246.07100367054775" />
+      <entry key="D1" value="270.6847484752651" />
+      <entry key="W1" value="275.2322187761832" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.5171299868391618E-176" />
+      <entry key="S2" value="1.1098280527227577E-44" />
+      <entry key="S5" value="2.6187996804015934E-18" />
+      <entry key="S10" value="1.6182705831848986E-9" />
+      <entry key="S30" value="0.0011740422152767091" />
+      <entry key="S60" value="0.034264299443140356" />
+      <entry key="M2" value="0.18511041571597006" />
+      <entry key="M5" value="0.5201156689570575" />
+      <entry key="M10" value="0.9294675127731553" />
+      <entry key="M15" value="1.4617292756772051" />
+      <entry key="M30" value="3.105112328611239" />
+      <entry key="H1" value="5.110842140197395" />
+      <entry key="H2" value="6.731508131616945" />
+      <entry key="H4" value="7.769935712314145" />
+      <entry key="D1" value="8.780191184786103" />
+      <entry key="W1" value="8.968215123798451" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.068869479138191" />
+      <entry key="MS500" value="0.6383804316433809" />
+      <entry key="S2" value="1.3872034952294658" />
+      <entry key="S5" value="2.073698619205293" />
+      <entry key="S10" value="2.70672082876641" />
+      <entry key="S30" value="3.5251280494512445" />
+      <entry key="S60" value="4.382015695783663" />
+      <entry key="M2" value="8.192667854158456" />
+      <entry key="M5" value="26.227624321791307" />
+      <entry key="M10" value="52.52669224719269" />
+      <entry key="M15" value="75.3423976815506" />
+      <entry key="M30" value="128.37487059315632" />
+      <entry key="H1" value="184.37011277301124" />
+      <entry key="H2" value="227.11534150507583" />
+      <entry key="H4" value="253.83392983422323" />
+      <entry key="D1" value="279.46367336222727" />
+      <entry key="W1" value="284.20025042566857" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EA1IrtHRREtsJCqgLvspAzHUCk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,16 +109,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.CharGenerator.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMProjectConfigurable",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,10 +144,25 @@
       <option name="presentableId" value="Default" />
       <updated>1779606482709</updated>
       <workItem from="1779606483744" duration="311000" />
+      <workItem from="1779684922392" duration="5967000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CharGenerator.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DnDCharacterGenerator$CharGenerator.coverage" NAME="CharGenerator Coverage Results" MODIFIED="1779691027491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
