@@ -6,3 +6,7 @@ It also calculates hitpoints using the constitution modifier, displays a list of
 The goal is to have the creator calculate stats taking into account race modifiers as well, based on the player's choice, calculate derived stats, generate a backstory and return a pre-filled character sheet.
 
 I'm running this project to keep myself sharp between the roles - feel free to use it once completed.
+
+27/05/2026:
+Added race and subraces modifiers, compiled everything into a single table. 
+TO DO: tweak functions to accommodate for the table. 
