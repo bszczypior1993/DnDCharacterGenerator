@@ -1,6 +1,7 @@
 import random
 import math
 from pprint import pprint
+from prettytable import PrettyTable
 
 
 # 6 abilities: strength, dexterity, constitution, intelligence, wisdom and charisma
@@ -11,20 +12,35 @@ from pprint import pprint
 
 # knowledge base
 hitpoints = 10
-abilities = ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"]
-races = {'Aasimar': ['Protector', 'Scourge', 'Fallen'],
-         'Dragonborn': [],
-         'Dwarf': ['Hill', 'Mountain', 'Grey'],
-         'Elf':['High', 'Wood', 'Dark', 'Eladrin'],
-         'Gnome': ['Forest', 'Rock', 'Deep'],
-         'Goliath': [],
-         'Halfling': ['Lightfoot', 'Stout', 'Ghostwise'],
-         'Human': ['Non-variant', 'Variant'],
-         'Orc': [],
-         'Thiefling': ['Feral', 'Devil Tongue', 'Winged', 'Hellfire']
-         }
 
-abilitydict = dict.fromkeys(abilities, None)
+table = PrettyTable(['race', 'subrace', 'strmodifier', 'dexmodifier', 'conmodifier', 'intmodifier', 'wismodifier', 'charmodifier'])
+table.add_row(['Aasimar', 'Protector', None, None, None, None, 1, 2])
+table.add_row(['Aasimar', 'Scourge', None, None, 1, None, None, 2])
+table.add_row(['Aasimar', 'Fallen', 1, None, None, None, None, 2])
+table.add_row(['Dragonborn', None, 2, None, None, None, None, 1])
+table.add_row(['Dwarf', 'Hill', None, None, 2, None, 1, None])
+table.add_row(['Dwarf', 'Mountain', 2, None, 2, None, None, None])
+table.add_row(['Dwarf', 'Grey', 1, None, 2, None, None, None])
+table.add_row(['Elf', 'High', None, 2, None, 1, None, None])
+table.add_row(['Elf', 'Wood', None, 2, None, None, None, None])
+table.add_row(['Elf', 'Dark', None, None, 2, None, None, 1])
+table.add_row(['Elf', 'Eladrin', None, 2, None, 1, 1, None])
+table.add_row(['Gnome', 'Forest', None, 1, None, 2, None, None])
+table.add_row(['Gnome', 'Rock', None, None, 1, 2, None, None])
+table.add_row(['Gnome', 'Deep', None, 1, None, 2, None, None])
+table.add_row(['Goliath', None, 2, None, 1, None, None, None])
+table.add_row(['Halfling', 'Lightfoot', None, 2, None, None, None, 1])
+table.add_row(['Halfling', 'Stout', None, 2, 1, None, None, None])
+table.add_row(['Halfling', 'Ghostwise', None, 2, None, None, 1, None])
+table.add_row(['Human', 'Non-Varian', 1, 1, 1, 1, 1, 1])
+table.add_row(['Human', 'Variant', None, None, None, None, None, None]) #remember to handle user selection
+table.add_row(['Orc', None, 2, None, 1, -2, None, None])
+table.add_row(['Tiefling', 'Feral', None, 2, None, 1, None, None])
+table.add_row(['Tiefling', 'Devil Tongue', None, None, None, 1, None, 2])
+table.add_row(['Tiefling', 'Winged', None, None, None, 1, None, 2])
+table.add_row(['Tiefling', 'Hellfire', None, None, None, 1, None, 2])
+
+print(table)
 
 # 6-sided dice roller
 def roll_dice():
@@ -43,6 +59,7 @@ def calculate_score():
 
 
 #asks the user to pick the race
+#must adjust to the new table
 def ask_race():
     print(f"The 5e approved races are:")
     pprint(races)
@@ -64,7 +81,7 @@ ask_race()
 
 
 
-
+#must adjust to the new table
 def calculate_stats():
     for key in abilitydict:
         abilitydict[key] = calculate_score()
@@ -82,7 +99,7 @@ def calculate_stats():
 
 
 
-
+#must adjust to the new table
 def calculate_character():
     calculate_stats()
 
@@ -100,4 +117,4 @@ def calculate_character():
     Charisma: {abilitydict["charisma"]}""")
 calculate_character()
 
-#github commit owner test
+#github commit owner test`
